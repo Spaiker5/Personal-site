@@ -1,0 +1,224 @@
+/*
+font-family: 'Orbitron', sans-serif;
+font-family: 'Baloo Bhai 2', cursive;
+font-family: 'Righteous', cursive;
+font-family: 'Fredoka One', cursive;
+font-family: 'Courgette', cursive;
+font-family: 'Girassol', cursive;
+ */
+h1 {
+	font-family: 'Girassol', cursive;
+}
+
+h2 {
+	font-family: 'Girassol', cursive;
+}
+
+h3 {
+	font-family: 'Righteous', cursive;
+}
+
+p {
+	font-family: 'Righteous', cursive;
+}
+
+.navbar {
+  background-image: url("images/star.jpg");
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border: 0;
+	border-radius: 0;
+	margin-bottom: 0;
+	font-size: 18px;
+	letter-spacing: 2px;
+}
+
+.parallax {
+	/* The image used */
+	background-image: url("images/space1.jpeg");
+	/* Set a specific height */
+	height: 800px;
+	width: 100%;
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#main {
+	text-align: center;
+	color: #FFD687;
+	padding-top: 5%;
+	margin: 0;
+}
+
+.slide-right {
+	text-align: left;
+}
+
+.p1 {
+	margin-left: 10%;
+	color: #00DFD4;
+}
+
+.p2 {
+	padding-top: 10px;
+	width: 56%;
+	font-size: 20px;
+	text-align: center;
+	color: #00DFD4;
+}
+
+.slide-right h1 {
+	animation: 2s slide-right;
+	animation-delay: 0;
+}
+
+.slide-right h2 {
+	animation: 4s slide-right;
+	animation-delay: 0;
+}
+
+.slide-right p {
+	animation: 5s slide-right;
+	animation-delay: 0;
+}
+
+@keyframes slide-right {
+	from {
+		margin-left: -1500px;
+	}
+
+	to {
+		margin-left: 0;
+	}
+}
+
+.slide-left {
+	margin-right: 10%;
+	padding-left: 15px;
+	padding-top: 100px;
+	text-align: right;
+}
+
+.slide-left h3 {
+	animation: 3s slide-left;
+	animation-delay: 0;
+}
+
+@keyframes slide-left {
+	from {
+		margin-right: -1500px;
+	}
+
+	to {
+		margin-right: 0;
+	}
+}
+
+.jumbo {
+	height: 200px;
+	width: 100%;
+	background-image: url("images/star.jpg");
+}
+
+/*  Stack  ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+#stack {
+	color: #C0B47D;
+	text-align: center;
+	background-image: url("/images/city.jpg");
+	width: 100%;
+	height: 700px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.jq {
+	width: 100px;
+	height: 100px;
+}
+
+.card-grid {
+	margin: 100px;
+}
+
+.front.back {
+	padding: 5px;
+}
+
+/* icons colors ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.fa-node {
+	color: #74AB63;
+	position: relative;
+}
+
+.fa-bootstrap {
+	color: #563D7C;
+	position: relative;
+}
+
+.fa-html5 {
+	color: #DE4B25;
+	position: relative;
+}
+
+.fa-css3-alt {
+	color: #4257C0;
+	position: relative;
+}
+
+.fa-js-square {
+	color: #F0D91D;
+	position: relative;
+}
+
+.fa-npm {
+	color: red;
+	position: relative;
+}
+
+.fa-github {
+	color: black;
+}
+
+
+.glow {
+  font-size: 80px;
+  color: white;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff;
+  }
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #fff;
+  }
+}
+
+
+/* contact ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+#contact {
+  text-align: center;
+  background-image: url("/images/shutle.png");
+  width: 100%;
+  height: 800px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+.kontakt {
+  margin: 0 25%;
+  padding-top: 10%;
+  opacity: 65%;
+  color: transparent;
+}
