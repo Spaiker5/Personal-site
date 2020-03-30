@@ -56,7 +56,7 @@ var mail = req.body.email +" "+ req.body.content;
 		text:  mail
 	};
 
-	
+
 	transporter.sendMail(mailOptions, function(error, info){
 	  if (error) {
 	    console.log(error);
@@ -69,6 +69,7 @@ var mail = req.body.email +" "+ req.body.content;
 
 });
 
-app.listen(3000, function() {
-  console.log("Server started on port 3000");
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+    console.log(`Our app is running on port ${ PORT }`);
 });
