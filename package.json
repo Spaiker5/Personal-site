@@ -4,7 +4,7 @@
   "description": "My personal site, for portfolio and contact.",
   "main": "app.js",
   "scripts": {
-   "start": "node index.js"
+   "start": "node app.js"
 },
   "author": "Spaiker",
   "license": "ISC",
